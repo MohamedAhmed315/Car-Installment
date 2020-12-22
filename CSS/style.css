@@ -1,0 +1,43 @@
+h2, h6 {
+    text-align: center;
+}
+
+#car {
+    margin-top: 30px;
+    width: 60vw;
+}
+
+/* #btn-calc, #btn-clear {
+    margin: ;
+    /* display: block; 
+} */
+
+.buttons {
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.form-group{
+    margin-top: 10px;
+}
+
+#result-container {
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 10px;
+    width: 40vw;
+    display: block;
+    margin: auto;
+}
+
+/* remove arrows fom unmber fields */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
