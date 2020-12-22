@@ -34,5 +34,6 @@ function clearData() {
     document.getElementById("down-payment").value = "";
     document.getElementById("months-count").value = "";
     document.getElementById("interest").value = "";
+    document.getElementById("result").innerHTML = "$0";
 }
 
