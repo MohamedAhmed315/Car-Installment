@@ -22,19 +22,19 @@
     <div id="car" class="container">
         <div class="form-group">
           <label>Car Price</label> 
-          <input type="number" min="0" class="form-control" id="price" placeholder="Enter car price">
+          <input type="number" min="0" class="form-control" id="price" placeholder="Enter car price" oninput="validity.valid||(value='');">
         </div>
         <div class="form-group">
           <label>Down Payment</label>
-          <input type="number" min="0" class="form-control" id="down-payment" placeholder="Enter down payment">
+          <input type="number" min="0" class="form-control" id="down-payment" placeholder="Enter down payment" oninput="validity.valid||(value='');">
         </div>
         <div class="form-group">
             <label>Months Count</label>
-            <input type="number" min="0" class="form-control" id="months-count" placeholder="Enter number of months">
+            <input type="number" min="0" class="form-control" id="months-count" placeholder="Enter number of months" oninput="validity.valid||(value='');">
         </div>
         <div class="form-group">
             <label>Interest Rate</label>
-            <input type="number" min="0" class="form-control" id="interest" placeholder="Enter interest rate">
+            <input type="number" min="0" class="form-control" id="interest" placeholder="Enter interest rate" oninput="validity.valid||(value='');">
         </div>
         <br>
 
