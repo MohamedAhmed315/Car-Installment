@@ -1,2 +1,2 @@
 # Car Installment
- car installment app
+ car installment calculator
